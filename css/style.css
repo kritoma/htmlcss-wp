@@ -33,10 +33,30 @@ a{
     color: #8a8a8a;
 }
 
-.first-section{
-    background-color: yellow;
-    min-height: 500px;
+.hero{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    min-height: 550px;
     margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.text-hero{
+    font-size: 20px;
+}
+
+.hero > h2{
+    padding-top: 350px;
+    font-size: 35px;
+    
+}
+
+.text-hero, .hero > h2{
+    padding-left: 50px;
+    width: 50%;
 }
 
 .second-section{

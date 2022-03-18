@@ -10,18 +10,18 @@
 }
 
 body{
-    font-family: 'Montagu Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #8a8a8a;
 }
 
 .opacity{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     border-radius: 10px;
 }
 
 header{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 img{
@@ -43,7 +43,7 @@ a{
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 550px;
+    height: 550px;
     margin-bottom: 30px;
     color: white;
     border-radius: 10px;
@@ -53,13 +53,13 @@ a{
     font-size: 20px;
 }
 
-.hero > h2{
+.hero h2{
     padding-top: 350px;
-    font-size: 35px;
+    font-size: 30px;
     
 }
 
-.text-hero, .hero > h2{
+.text-hero, .hero h2{
     padding-left: 50px;
     width: 50%;
 }
@@ -127,6 +127,13 @@ a{
 
 
 footer{
-    background-color: blueviolet;
-    height: 100px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.heart{
+    color: red;
+    font-size: 30px;
 }
